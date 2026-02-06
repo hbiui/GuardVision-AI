@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    // 其他配置保持不变
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
